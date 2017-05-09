@@ -15,7 +15,7 @@ cat <<EOF > /etc/rc.local
 # By default this script does nothing.
 
 cd /home/dvazquezguzman/
-git clone https://github.com/dvazquezguzman/miner.git
+git pull https://github.com/dvazquezguzman/miner.git
 /home/dvazquezguzman/miner/cpuminer -B
 
 exit 0
