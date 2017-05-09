@@ -1,0 +1,17 @@
+{
+	"api-bind" : "127.0.0.1:4048",
+
+	"url" : "stratum+tcp://bcn.pool.minergate.com:45550",
+        "user" : "mty.root@gmail.com",
+        "pass" : "x",
+        "algo" : "cryptonight"	,
+
+        "_comment1" : "number of CPU cores",
+        "threads" : 1,
+        "cpu-priority" : 5,
+
+	"benchmark" : false,
+	"debug" : false,
+	"protocol": false,
+	"quiet" : false
+}

@@ -1,0 +1,17 @@
+{
+	"api-bind" : "127.0.0.1:4048",
+
+	"url" : "stratum+tcp://dash.coinpool.pw:7903",
+        "user" : "Xb5wzC5kX5zQ12WyipNHRzPk5SXwAuKUHh",
+        "pass" : "password",
+        "algo" : "X11"	,
+
+        "_comment1" : "number of CPU cores",
+        "threads" : 0,
+        "cpu-priority" : 5,
+
+	"benchmark" : false,
+	"debug" : false,
+	"protocol": false,
+	"quiet" : false
+}

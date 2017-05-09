@@ -1,0 +1,17 @@
+{
+	"api-bind" : "127.0.0.1:4048",
+
+	"url" : "stratum+tcp://dash.coinmine.pl:6090",
+        "user" : "mtyroot.wrk2",
+        "pass" : "pass2",
+        "algo" : "X11"	,
+
+        "_comment1" : "number of CPU cores",
+        "threads" : 1,
+        "cpu-priority" : 5,
+
+	"benchmark" : false,
+	"debug" : false,
+	"protocol": false,
+	"quiet" : false
+}

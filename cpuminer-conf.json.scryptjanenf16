@@ -1,0 +1,17 @@
+{
+	"api-bind" : "127.0.0.1:4048",
+
+	"url" : "stratum+tcp://scryptjanenf16.eu.nicehash.com:3348",
+	"user" : "1GiEJQ9uvW61ujj9ueYP82eZLUFoAQDexg",
+	"pass" : "x",
+	"algo" : "scrypt-jane:16",
+
+        "_comment1" : "number of CPU cores",
+        "threads" : 4,
+        "cpu-priority" : 2,
+
+	"benchmark" : false,
+	"debug" : false,
+	"protocol": false,
+	"quiet" : false
+}

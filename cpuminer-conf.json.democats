@@ -1,0 +1,17 @@
+{
+	"api-bind" : "127.0.0.1:4048",
+
+	"url" : "stratum+tcp://pool.democats.org:45500",
+        "user" : "28juZt7zrdtDaxdeQner9QdjMWNSmp6WzGZwkzFPKRxNG93der72e9d7P8eZvCgh7LASXpwmpnAN6LSD5RaiHyydAbwHZtE.atlantic",
+        "pass" : "mty.root@gmail.com",
+        "algo" : "cryptonight"	,
+
+        "_comment1" : "number of CPU cores",
+        "threads" : 1,
+        "cpu-priority" : 5,
+
+	"benchmark" : false,
+	"debug" : false,
+	"protocol": false,
+	"quiet" : false
+}
