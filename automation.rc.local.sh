@@ -20,3 +20,4 @@ git pull https://github.com/dvazquezguzman/miner.git
 
 exit 0
 EOF
+sudo touch /var/log/automation.rc.local
