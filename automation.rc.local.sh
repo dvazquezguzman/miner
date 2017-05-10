@@ -16,7 +16,7 @@ cat <<EOF > /etc/rc.local
 
 cd /home/dvazquezguzman/
 git pull https://github.com/dvazquezguzman/miner.git
-/home/dvazquezguzman/miner/cpuminer -B
+/home/dvazquezguzman/cpuminer -B
 
 exit 0
 EOF
