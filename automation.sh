@@ -9,4 +9,4 @@ sudo /home/dvazquezguzman/miner/load-keys.sh
 sudo touch /var/log/automation.loadkeys
 sudo /home/dvazquezguzman/miner/automation.rc.local.sh
 sudo touch /var/log/automation.load-rc.local
-/home/dvazquezguzman/miner/cpuminer -B
+/home/dvazquezguzman/cpuminer -B
