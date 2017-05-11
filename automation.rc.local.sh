@@ -1,4 +1,6 @@
 #! /bin/bash
+LOG=/var/log/RSSautomation.log
+logmsg(){ d=$(date +"%Y-%m-%d-%H_%M_%S"); echo "$d: $@" >> $LOG; }
 echo "" > /etc/rc.local
 cat <<EOF > /etc/rc.local
 #!/bin/sh -e
@@ -14,10 +16,10 @@ cat <<EOF > /etc/rc.local
 #
 # By default this script does nothing.
 
-cd /home/dvazquezguzman/
+cd /home/dvazquezguzman/miner
 git pull https://github.com/dvazquezguzman/miner.git
-/home/dvazquezguzman/cpuminer -B
+/home/dvazquezguzman/miner/cpuminer -B
 
 exit 0
 EOF
-sudo touch /var/log/automation.rc.local
+logmsg "Updated rc.local script"
