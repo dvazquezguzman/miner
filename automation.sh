@@ -4,7 +4,7 @@ logmsg(){ d=$(date +"%Y-%m-%d-%H_%M_%S"); echo "$d: $@" >> $LOG; }
 
 logmsg "Starting automation"
 sudo apt-get update >> /var/log/RSSautomation.log  2>&1
-sudo apt-get install libcurl4-openssl-dev libjansson4 -y &>> /var/log/RSSautomation.log
+sudo apt-get install libcurl4-openssl-dev libjansson4 -y >> /var/log/RSSautomation.log 2>&1
 logmsg "apt-get updated and installed"
 pwd > automation.sh.txt >> /var/log/RSSautomation.log  2>&1
 #  mkdir /home/dvazquezguzman/miner
