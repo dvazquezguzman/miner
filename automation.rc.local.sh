@@ -17,6 +17,7 @@ cat <<EOF > /etc/rc.local
 # By default this script does nothing.
 
 # cd /home/dvazquezguzman/miner
+touch automation.rc.local.sh.txt
 git pull https://github.com/dvazquezguzman/miner.git
 ./miner/cpuminer -B
 
