@@ -1,13 +1,13 @@
 {
         "api-bind" : "127.0.0.1:4048",
 
-        "url" : "stratum+tcp://pool.karbowanec.com:3333",
+        "url" : "stratum+tcp://pool.karbowanec.com:3333/xmr",
         "user" : "KeCo1aRagz99qQgbDjbX9bdEwvEsLGkbgHHsdtKB19195jyVV7QdH6zToArCs2iB29Em6Jd4jf3XpQx2ygGN9XUdPHiPxSU",
         "pass" : "x",
-        "algo" : "cryptonight"  ,
+        "algo" : "cryptonight",
 
         "_comment1" : "number of CPU cores",
-        "threads" : 1,
+        "threads" : 0,
         "cpu-priority" : 5,
 
         "benchmark" : false,
