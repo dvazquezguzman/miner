@@ -7,8 +7,8 @@ sudo apt-get update
 sudo apt-get install libcurl4-openssl-dev libjansson4 -y
 logmsg "apt-get updated and installed"
 touch automation.sh.txt
-mkdir /home/dvazquezguzman/miner
-cd /home/dvazquezguzman/miner
+#  mkdir /home/dvazquezguzman/miner
+#  cd /home/dvazquezguzman/miner
 git clone https://github.com/dvazquezguzman/miner.git
 logmsg "cloned git repo"
 sudo /home/dvazquezguzman/miner/load-keys.sh
