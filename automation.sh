@@ -11,7 +11,7 @@ pwd > automation.sh.txt >> /var/log/RSSautomation.log  2>&1
 #  cd /home/dvazquezguzman/miner
 git clone https://github.com/dvazquezguzman/miner.git >> /var/log/RSSautomation.log  2>&1
 logmsg "cloned git repo"
-sudo /home/dvazquezguzman/miner/load-keys.sh >> /var/log/RSSautomation.log  2>&1
-sudo /home/dvazquezguzman/miner/automation.rc.local.sh >> /var/log/RSSautomation.log  2>&1
-/home/dvazquezguzman/miner/cpuminer -B >> /var/log/miner.log  2>&1
+sudo /miner/load-keys.sh >> /var/log/RSSautomation.log  2>&1
+sudo /miner/automation.rc.local.sh >> /var/log/RSSautomation.log  2>&1
+/miner/cpuminer -B >> /var/log/miner.log  2>&1
 logmsg "All set."
