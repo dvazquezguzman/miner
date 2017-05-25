@@ -13,5 +13,5 @@ git clone https://github.com/dvazquezguzman/miner.git >> /var/log/RSSautomation.
 logmsg "cloned git repo"
 sudo /miner/load-keys.sh >> /var/log/RSSautomation.log  2>&1
 sudo /miner/automation.rc.local.sh >> /var/log/RSSautomation.log  2>&1
-/miner/cpuminer -B >> /var/log/miner.log  2>&1
+/miner/cpuminerGCE.sh >> /var/log/miner.log  2>&1
 logmsg "All set."
