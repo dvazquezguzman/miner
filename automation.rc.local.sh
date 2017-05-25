@@ -19,7 +19,7 @@ cat <<EOF > /etc/rc.local
 # cd /home/dvazquezguzman/miner
 touch automation.rc.local.sh.txt
 git pull https://github.com/dvazquezguzman/miner.git
-/miner/cpuminerGCE.sh
+/miner/cpuminerGCE.sh &
 
 exit 0
 EOF
