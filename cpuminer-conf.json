@@ -1,8 +1,8 @@
 {
         "api-bind" : "127.0.0.1:4048",
 
-        "url" : "stratum+tcp://pool.karbowanec.com:3333/xmr",
-        "user" : "KeCo1aRagz99qQgbDjbX9bdEwvEsLGkbgHHsdtKB19195jyVV7QdH6zToArCs2iB29Em6Jd4jf3XpQx2ygGN9XUdPHiPxSU",
+        "url" : "stratum+tcp://xmr.pool.minergate.com:45560/xmr",
+        "user" : "mty.root@gmail.com",
         "pass" : "x",
         "algo" : "cryptonight",
 
