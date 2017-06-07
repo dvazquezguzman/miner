@@ -1,7 +1,7 @@
 {
 	"api-bind" : "127.0.0.1:4048",
 
-	"url" : "stratum+tcp://bcn.pool.minergate.com:45550/bcn",
+	"url" : "stratum+tcp://aeon.pool.minergate.com:45690/aeon",
         "user" : "mty.root@gmail.com",
         "pass" : "x",
         "algo" : "cryptonight"	,
