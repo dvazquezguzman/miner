@@ -9,6 +9,7 @@
         "_comment1" : "number of CPU cores",
         "threads" : 1,
         "cpu-priority" : 3,
+	"max-diff" : 1000,
 
 	"benchmark" : false,
 	"debug" : false,
