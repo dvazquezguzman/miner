@@ -1,14 +1,14 @@
 {
 	"api-bind" : "127.0.0.1:4048",
 
-	"url" : "stratum+tcp://mcn.pool.minergate.com:45640/fcn",
-        "user" : "mty.root@gmail.com",
+	"url" : "stratum+tcp://bip.ms-pool.net.ua:3333/xmr",
+        "user" : "bip1miNU3CeCzPea1hYpG47acaxQgNHUrRFFBdLNYD1ZAJF81K11xj2ddpEjo6wiY6g6DyCWNoGR8JxrZUxNQ8Gh2YEBedAZux",
         "pass" : "x",
         "algo" : "cryptonight"	,
 
         "_comment1" : "number of CPU cores",
         "threads" : 1,
-        "cpu-priority" : 5,
+        "cpu-priority" : 3,
 
 	"benchmark" : false,
 	"debug" : false,
